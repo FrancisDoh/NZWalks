@@ -9,7 +9,11 @@
         public Guid WalkDifficulty { get; set; }
 
         // Navigation properties
-        public Region? Region { get; set; } // ? stands for nullable.
-        public WalkDifficulty? WalkDifficulty { get; set; }
+        //public Region? Region { get; set; } // ? stands for nullable.
+        //public WalkDifficulty? WalkDifficulty { get; set; }
+
+        // New version
+        //public Region? Region { get; set; } // ? stands for nullable.
+        //public WalkDifficulty? WalkDifficulty { get; set; }
     }
 }
